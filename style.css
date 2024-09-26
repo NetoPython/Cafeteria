@@ -253,3 +253,14 @@ footer img:hover {
     background-color: var(--main-color);
     border-radius: 30%;
 }
+
+@media (max-width: 768px) {
+  /* Estilos para telas menores que 768px */
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar a {
+    display: block;
+    margin: 1rem 0;
+  }
+}
